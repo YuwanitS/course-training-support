@@ -13,6 +13,11 @@ const routes = [
     name: "About",
     component: About,
   },
+  {
+    path: "/class_available",
+    name: "Class Available",
+    component: About,
+  },
 ];
 
 const router = createRouter({ history: createWebHistory(), routes });
